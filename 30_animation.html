@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .container{
+            width: 100%;
+            height: 40vh;
+            background-color: aliceblue;
+        }
+        .box{
+            width: 200px;
+            height: 200px;
+            /* background-image: url(a.jpg);
+            background-size: cover;
+            background-position: center; */
+            background-color: blanchedalmond;
+            animation-name: kashaf;
+            animation-duration: s5;
+            animation-iteration-count: 2;
+            animation-direction: alternate;
+            /* animation-delay: 3s; */
+            position: relative;
+            /* animation-play-state:paused; */
+            /* animation-timeline:inherit; */
+
+        }
+        /* img{
+            border-radius: 30px;
+            animation-name: kashaf2;
+            animation-duration: 5s;
+            animation-iteration-count: 2;
+            animation-direction: alternate;
+            position: relative;
+        } */
+        @keyframes kashaf{
+0%{
+    background-color: brown;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+25%{
+    top: 250px;
+    left: 0;
+    background-color: cadetblue;
+    border-radius: 20px;
+}
+50%{
+    left: 250px;
+    top: 250px;
+    background-color: darkcyan;
+    border-radius: 30px;
+}
+75%{
+    left: 250px;
+    top: 0px;
+    background-color: darkgray;
+    border-radius: 40px;
+}
+100%{
+    background-color: darkcyan;
+    left: 0;
+    top: 0;
+    color: white;
+    border-radius: 50px;
+}
+        }
+        /* @keyframes kashaf2{
+0%{
+    background-color: brown;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+25%{
+    top: 250px;
+    left: 0;
+    background-color: cadetblue;
+    border-radius: 20px;
+}
+50%{
+    left: 250px;
+    top: 250px;
+    background-color: darkcyan;
+    border-radius: 30px;
+}
+75%{
+    left: 250px;
+    top: 0px;
+    background-color: darkgray;
+    border-radius: 40px;
+}
+100%{
+    background-color: darkcyan;
+    left: 0;
+    top: 0;
+    color: white;
+    border-radius: 50px;
+}
+        } */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="a.jpg" alt="" width="100px">
+        </div>
+    </div>
+</body>
+</html>
